@@ -1,0 +1,11 @@
+{
+  "points_count": 3,
+  "min_load": 1,
+  "max_load": 5,
+  "max_time": 100,
+  "max_distance": 50,
+  "distance_matrix": [[0,10,20],[10,0,15],[20,15,0]],
+  "time_matrix": [[[0,1,2],[1,0,1],[2,1,0]]],
+  "point_scores": [10,20],
+  "point_service_times": [5,10]
+}
