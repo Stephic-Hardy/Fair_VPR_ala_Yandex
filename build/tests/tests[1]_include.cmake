@@ -1,0 +1,5 @@
+if(EXISTS "/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/tests/tests[1]_tests.cmake")
+  include("/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/tests/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()

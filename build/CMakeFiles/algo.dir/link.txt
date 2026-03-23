@@ -1,0 +1,2 @@
+/usr/bin/ar qc libalgo.a CMakeFiles/algo.dir/src/first_step.cpp.o CMakeFiles/algo.dir/src/branch_and_bound.cpp.o
+/usr/bin/ranlib libalgo.a

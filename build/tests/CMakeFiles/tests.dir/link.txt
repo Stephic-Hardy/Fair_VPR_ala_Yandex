@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests.dir/test_json.cpp.o CMakeFiles/tests.dir/test_first_step.cpp.o -o tests  ../libalgo.a ../libutils.a ../lib/libgtest_main.a ../lib/libgtest.a 
