@@ -97,19 +97,51 @@ CMakeFiles/algo.dir/src/branch_and_bound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/branch_and_bound.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/src/branch_and_bound.cpp -o CMakeFiles/algo.dir/src/branch_and_bound.cpp.s
 
+CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o: CMakeFiles/algo.dir/flags.make
+CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o: ../src/multi_agent_solver.cpp
+CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o: CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o -MF CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o.d -o CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o -c /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/src/multi_agent_solver.cpp
+
+CMakeFiles/algo.dir/src/multi_agent_solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/multi_agent_solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/src/multi_agent_solver.cpp > CMakeFiles/algo.dir/src/multi_agent_solver.cpp.i
+
+CMakeFiles/algo.dir/src/multi_agent_solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/multi_agent_solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/src/multi_agent_solver.cpp -o CMakeFiles/algo.dir/src/multi_agent_solver.cpp.s
+
+CMakeFiles/algo.dir/src/single_agent_solver.cpp.o: CMakeFiles/algo.dir/flags.make
+CMakeFiles/algo.dir/src/single_agent_solver.cpp.o: ../src/single_agent_solver.cpp
+CMakeFiles/algo.dir/src/single_agent_solver.cpp.o: CMakeFiles/algo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/algo.dir/src/single_agent_solver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algo.dir/src/single_agent_solver.cpp.o -MF CMakeFiles/algo.dir/src/single_agent_solver.cpp.o.d -o CMakeFiles/algo.dir/src/single_agent_solver.cpp.o -c /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/src/single_agent_solver.cpp
+
+CMakeFiles/algo.dir/src/single_agent_solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algo.dir/src/single_agent_solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/src/single_agent_solver.cpp > CMakeFiles/algo.dir/src/single_agent_solver.cpp.i
+
+CMakeFiles/algo.dir/src/single_agent_solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algo.dir/src/single_agent_solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/src/single_agent_solver.cpp -o CMakeFiles/algo.dir/src/single_agent_solver.cpp.s
+
 # Object files for target algo
 algo_OBJECTS = \
 "CMakeFiles/algo.dir/src/first_step.cpp.o" \
-"CMakeFiles/algo.dir/src/branch_and_bound.cpp.o"
+"CMakeFiles/algo.dir/src/branch_and_bound.cpp.o" \
+"CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o" \
+"CMakeFiles/algo.dir/src/single_agent_solver.cpp.o"
 
 # External object files for target algo
 algo_EXTERNAL_OBJECTS =
 
 libalgo.a: CMakeFiles/algo.dir/src/first_step.cpp.o
 libalgo.a: CMakeFiles/algo.dir/src/branch_and_bound.cpp.o
+libalgo.a: CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o
+libalgo.a: CMakeFiles/algo.dir/src/single_agent_solver.cpp.o
 libalgo.a: CMakeFiles/algo.dir/build.make
 libalgo.a: CMakeFiles/algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libalgo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libalgo.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/algo.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algo.dir/link.txt --verbose=$(VERBOSE)
 

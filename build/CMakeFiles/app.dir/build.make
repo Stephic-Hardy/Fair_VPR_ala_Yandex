@@ -94,6 +94,7 @@ app: CMakeFiles/app.dir/main.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: libutils.a
 app: libalgo.a
+app: libutils.a
 app: CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)

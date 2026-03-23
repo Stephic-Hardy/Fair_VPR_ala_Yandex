@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/utils -I/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/algo
+CXX_INCLUDES = -I/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/utils
 
 CXX_FLAGS = -std=gnu++17
 

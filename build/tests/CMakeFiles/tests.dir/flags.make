@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDATA_DIR=\"/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/tests/data\"
 
-CXX_INCLUDES = -I/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/algo -I/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/utils -isystem /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/external/googletest/googletest/include -isystem /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/external/googletest/googletest
+CXX_INCLUDES = -I/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/utils -isystem /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/external/googletest/googletest/include -isystem /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/external/googletest/googletest
 
 CXX_FLAGS = -std=gnu++17
 

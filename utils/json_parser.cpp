@@ -78,4 +78,15 @@ namespace JsonParser {
         file << j.dump(4);
         return true;
     };
+
+    bool WriteSolutionToJsonFile(const std::string &jsonPath, const std::vector<Solution> &solutions) {
+    nlohmann::json j = solutions; // автоматически использует to_json для Solution
+    std::ofstream file(jsonPath);
+    if (!file) {
+        std::cerr << "Can`t open output file to write solution" << std::endl;
+        return false;
+    }
+    file << j.dump(4);
+    return true;
+}
 }

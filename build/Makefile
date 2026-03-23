@@ -347,6 +347,54 @@ src/first_step.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/first_step.cpp.s
 .PHONY : src/first_step.cpp.s
 
+src/multi_agent_solver.o: src/multi_agent_solver.cpp.o
+.PHONY : src/multi_agent_solver.o
+
+# target to build an object file
+src/multi_agent_solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/multi_agent_solver.cpp.o
+.PHONY : src/multi_agent_solver.cpp.o
+
+src/multi_agent_solver.i: src/multi_agent_solver.cpp.i
+.PHONY : src/multi_agent_solver.i
+
+# target to preprocess a source file
+src/multi_agent_solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/multi_agent_solver.cpp.i
+.PHONY : src/multi_agent_solver.cpp.i
+
+src/multi_agent_solver.s: src/multi_agent_solver.cpp.s
+.PHONY : src/multi_agent_solver.s
+
+# target to generate assembly for a file
+src/multi_agent_solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/multi_agent_solver.cpp.s
+.PHONY : src/multi_agent_solver.cpp.s
+
+src/single_agent_solver.o: src/single_agent_solver.cpp.o
+.PHONY : src/single_agent_solver.o
+
+# target to build an object file
+src/single_agent_solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/single_agent_solver.cpp.o
+.PHONY : src/single_agent_solver.cpp.o
+
+src/single_agent_solver.i: src/single_agent_solver.cpp.i
+.PHONY : src/single_agent_solver.i
+
+# target to preprocess a source file
+src/single_agent_solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/single_agent_solver.cpp.i
+.PHONY : src/single_agent_solver.cpp.i
+
+src/single_agent_solver.s: src/single_agent_solver.cpp.s
+.PHONY : src/single_agent_solver.s
+
+# target to generate assembly for a file
+src/single_agent_solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/single_agent_solver.cpp.s
+.PHONY : src/single_agent_solver.cpp.s
+
 utils/json_parser.o: utils/json_parser.cpp.o
 .PHONY : utils/json_parser.o
 
@@ -425,6 +473,12 @@ help:
 	@echo "... src/first_step.o"
 	@echo "... src/first_step.i"
 	@echo "... src/first_step.s"
+	@echo "... src/multi_agent_solver.o"
+	@echo "... src/multi_agent_solver.i"
+	@echo "... src/multi_agent_solver.s"
+	@echo "... src/single_agent_solver.o"
+	@echo "... src/single_agent_solver.i"
+	@echo "... src/single_agent_solver.s"
 	@echo "... utils/json_parser.o"
 	@echo "... utils/json_parser.i"
 	@echo "... utils/json_parser.s"

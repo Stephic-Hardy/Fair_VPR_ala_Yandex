@@ -155,7 +155,7 @@ tests/googletest-build/googletest/clean: tests/googletest-build/googletest/CMake
 CMakeFiles/utils.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=17,18,19 "Built target utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=19,20,21 "Built target utils"
 .PHONY : CMakeFiles/utils.dir/all
 
 # Build rule for subdir invocation for target.
@@ -178,15 +178,15 @@ CMakeFiles/utils.dir/clean:
 # Target rules for target CMakeFiles/algo.dir
 
 # All Build rule for target.
-CMakeFiles/algo.dir/all:
+CMakeFiles/algo.dir/all: CMakeFiles/utils.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=1,2,3 "Built target algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target algo"
 .PHONY : CMakeFiles/algo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/algo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/algo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 0
 .PHONY : CMakeFiles/algo.dir/rule
@@ -208,12 +208,12 @@ CMakeFiles/app.dir/all: CMakeFiles/utils.dir/all
 CMakeFiles/app.dir/all: CMakeFiles/algo.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=4,5 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=6,7 "Built target app"
 .PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
@@ -237,12 +237,12 @@ tests/CMakeFiles/tests.dir/all: tests/googletest-build/googletest/CMakeFiles/gte
 tests/CMakeFiles/tests.dir/all: tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=14,15,16 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=16,17,18 "Built target tests"
 .PHONY : tests/CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/tests.dir/rule
@@ -263,7 +263,7 @@ tests/CMakeFiles/tests.dir/clean:
 tests/googletest-build/googlemock/CMakeFiles/gmock.dir/all: tests/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make tests/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make tests/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=6,7 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=8,9 "Built target gmock"
 .PHONY : tests/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,7 +290,7 @@ tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: tests/googletes
 tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: tests/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=8,9 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=10,11 "Built target gmock_main"
 .PHONY : tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -316,7 +316,7 @@ tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 tests/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googletest/CMakeFiles/gtest.dir/build.make tests/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googletest/CMakeFiles/gtest.dir/build.make tests/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=10,11 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=12,13 "Built target gtest"
 .PHONY : tests/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -342,7 +342,7 @@ tests/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: tests/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=12,13 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build/CMakeFiles --progress-num=14,15 "Built target gtest_main"
 .PHONY : tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

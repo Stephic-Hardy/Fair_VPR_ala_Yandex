@@ -9,4 +9,6 @@ namespace JsonParser {
     bool ParseSolutionFromJson(const std::string &jsonPath, Solution& solution);
 
     bool WriteSolutionToJsonFile(const std::string &jsonPath, Solution &&solution);
+
+    bool WriteSolutionToJsonFile(const std::string &jsonPath, const std::vector<Solution> &solutions);
 }

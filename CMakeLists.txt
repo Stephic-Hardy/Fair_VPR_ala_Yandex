@@ -14,14 +14,16 @@ set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 set(SRC_SOURCES
         "${SRC_DIR}/first_step.cpp"
         "${SRC_DIR}/branch_and_bound.cpp"
+        "${SRC_DIR}/multi_agent_solver.cpp"
+        "${SRC_DIR}/single_agent_solver.cpp"
 )
 
 add_library(utils STATIC ${UTILS_SOURCES})
 target_include_directories(utils PUBLIC utils)
 
-
 add_library(algo STATIC ${SRC_SOURCES})
-target_include_directories(algo PUBLIC algo)
+target_include_directories(algo PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})   # добавлено
+target_link_libraries(algo PRIVATE utils)                              # добавлено
 
 set(SOURCES main.cpp)
 

@@ -283,6 +283,9 @@ GTEST_HAS_ABSL:BOOL=OFF
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
 
+//Dependencies for the target
+algo_LIB_DEPENDS:STATIC=general;utils;
+
 //Value Computed by CMake
 app_BINARY_DIR:STATIC=/home/pashafeodorov/Yandex_project/Fair_VPR/Fair_VPR_ala_Yandex/build
 
