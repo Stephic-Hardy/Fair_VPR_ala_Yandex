@@ -251,12 +251,12 @@ void BranchAndBound::dfs(const std::vector<std::vector<double>>& mat,
     {
         std::vector<std::vector<double>> mat_ex = mat;
         mat_ex[a][b] = INF;
-        
-        double child_lb = current_reduction + max_penalty;
+        double excl_reduction = reduce(mat_ex);
+        double child_lb = current_reduction + excl_reduction;
         double exclude_lower_bound = real_cost + child_lb;
 
         if (exclude_lower_bound < best - 1e-9) {
-            double excl_reduction = reduce(mat_ex);
+            
             dfs(mat_ex, current_reduction + excl_reduction, real_cost, included, active_row, active_col);
             if (timeout) return;
         } else {

@@ -31,8 +31,9 @@ std::vector<Solution> SolveMultiAgent(const InputData &input, uint64_t time_limi
 
             }
             points_left--;
-            std::cout << points_left << std::endl;
+            
         }
+        std::cout << points_left << std::endl;
     }
 
     return all_routes;
